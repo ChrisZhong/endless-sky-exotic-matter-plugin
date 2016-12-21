@@ -8,28 +8,27 @@ outfit "Exotic Matter Beam"
 	"weapon capacity" -1
 	"gun ports" -1
 	weapon
-		sprite "projectile/lightning"
-			"frame rate" 60
-			"random start frame"
-			"delay" 6
-		sound "zapper"
+		sprite "projectile/skylance"
+			"frame rate" 1
+		sound "skylance"
 		"hit effect" "skylance impact"
 		"lifetime" 1
 		"reload" 1
-		"velocity" 1000
+		"velocity" 500
 		"inaccuracy" .1
-		"firing energy" .02
-		"firing heat" .02
-		"shield damage" 2000
-		"hull damage" 0
-		"heat damage" 2000
-		"ion damage" .02
-		"disruption damage" .02
-		"slowing damage" .02
+		"firing energy" 2
+		"firing heat" 2
+		"shield damage" 0
+		"hull damage" 3
+		"heat damage" 1
+		"ion damage" .09
+		"disruption damage" 0
+		"slowing damage" .025
+		"hit force" -10
+		"piercing" 1
 	description "What is exotic matter?"
 	description "No one knows how this weapon works. Every attempt to study and reverse engineer this weapon have resulted in complete failure."
 	description "Whoever created this weapon values life greatly as they intended it for disabling ships."
-	description " Due to the properties of exotic matter, the exotic matter beam requires almost no energy to fire and heat is removed everytime this weapon is fired."
 
 outfit "Exotic Matter Seeker"
 	category "Guns"
@@ -49,7 +48,7 @@ outfit "Exotic Matter Seeker"
 		"lifetime" 500
 		"reload" 60
 		"homing" 5
-		"tracking" .9999999999999999
+		"tracking" 1
 		"missile strength" 0
 		"velocity" 20
 		"acceleration" 2
@@ -66,12 +65,12 @@ outfit "Exotic Matter Seeker"
 		"ion damage" 1
 		"disruption damage" 1
 		"slowing damage" 1
-		"hit force" 0
-		"piercing" 0
+		"hit force" -60
+		"piercing" 1
 	description "What is exotic matter?"
 	description "No one knows how this weapon works. Every attempt to study and reverse engineer this weapon have resulted in complete failure."
 	description "Whoever created this weapon values life greatly as they intended it for disabling ships."
-	description " The exotic matter seeker does not require any ammunition but is capable of producing exotic matter projectiles that are indestructile and can seek out targets with near-perfect accuracy. Due to the properties of exotic matter, the exotic matter beam requires almost no energy to fire and heat is removed everytime this weapon is fired."
+	description " This weapon does not require any ammunition but is capable of producing exotic matter projectiles that are indestructible and can seek out targets with near-perfect accuracy."
 
 outfit "Exotic Matter Defense Field"
 	category "Turrets"
@@ -86,12 +85,10 @@ outfit "Exotic Matter Defense Field"
 		"reload" 1
 		"anti-missile" 10000
 		"velocity" 400
-		"firing energy" .01
-		"firing heat" .01
+		"firing energy" .1
+		"firing heat" .1
 	description "What is exotic matter?"
 	description "No one knows how this weapon works. Every attempt to study and reverse engineer this weapon have resulted in complete failure."
-	description "Whoever created this weapon values life greatly as they intended it for disabling ships."
-	description " The exotic matter seeker does not require any ammunition but is capable of producing exotic matter projectiles that are indestructile and can seek out targets with near-perfect accuracy. Due to the properties of exotic matter, the exotic matter beam requires almost no energy to fire and heat is removed everytime this weapon is fired."
 
 outfit "Exotic Matter Beam Turret"
 	category "Turrets"
@@ -102,27 +99,27 @@ outfit "Exotic Matter Beam Turret"
 	"weapon capacity" -1
 	"turret mounts" -1
 	weapon
-		sprite "projectile/lightning"
-			"frame rate" 60
-			"random start frame"
-		sound "zapper"
+		sprite "projectile/skylance"
+			"frame rate" 1
+		sound "skylance"
 		"hit effect" "skylance impact"
 		"lifetime" 1
 		"reload" 1
-		"velocity" 1000
+		"velocity" 500
 		"inaccuracy" .1
-		"firing energy" 400
-		"firing heat" 400
-		"shield damage" 4000
-		"hull damage" 0
-		"heat damage" 4000
-		"ion damage" .04
-		"disruption damage" .04
-		"slowing damage" .04
+		"firing energy" 2
+		"firing heat" 2
+		"shield damage" 0
+		"hull damage" 3
+		"heat damage" 1
+		"ion damage" .09
+		"disruption damage" 0
+		"slowing damage" .025
+		"hit force" -10
+		"piercing" 1
 	description "What is exotic matter?"
 	description "No one knows how this weapon works. Every attempt to study and reverse engineer this weapon have resulted in complete failure."
 	description "Whoever created this weapon values life greatly as they intended it for disabling ships."
-	description " The exotic matter seeker does not require any ammunition but is capable of producing exotic matter projectiles that are indestructile and can seek out targets with near-perfect accuracy. Due to the properties of exotic matter, the exotic matter beam requires almost no energy to fire and heat is removed everytime this weapon is fired."
 
 outfit "Exotic Matter System"
 	category "Systems"
