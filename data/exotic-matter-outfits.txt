@@ -51,7 +51,7 @@ outfit "Exotic Matter Seeker"
 		"velocity" 20
 		"acceleration" 2
 		"drag" .1
-		"turn" 4
+		"turn" 16
 		"inaccuracy" .1
 		"firing energy" 120
 		"firing heat" 120
