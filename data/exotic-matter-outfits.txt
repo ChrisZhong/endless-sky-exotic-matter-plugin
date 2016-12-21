@@ -18,11 +18,9 @@ outfit "Exotic Matter Beam"
 		"inaccuracy" .1
 		"firing energy" 2
 		"firing heat" 2
-		"shield damage" 0
 		"hull damage" 3
 		"heat damage" 1
 		"ion damage" .09
-		"disruption damage" 0
 		"slowing damage" .025
 		"hit force" -10
 		"piercing" 1
@@ -55,16 +53,12 @@ outfit "Exotic Matter Seeker"
 		"drag" .1
 		"turn" 4
 		"inaccuracy" .1
-		"firing energy" 1
-		"firing force" 0
-		"firing fuel" 0
-		"firing heat" 1
-		"shield damage" 100000
-		"hull damage" 0
-		"heat damage" 100000
-		"ion damage" 1
-		"disruption damage" 1
-		"slowing damage" 1
+		"firing energy" 120
+		"firing heat" 120
+		"hull damage" 180
+		"heat damage" 60
+		"ion damage" 5.4
+		"slowing damage" 1.5
 		"hit force" -60
 		"piercing" 1
 	description "What is exotic matter?"
@@ -109,11 +103,9 @@ outfit "Exotic Matter Beam Turret"
 		"inaccuracy" .1
 		"firing energy" 2
 		"firing heat" 2
-		"shield damage" 0
 		"hull damage" 3
 		"heat damage" 1
 		"ion damage" .09
-		"disruption damage" 0
 		"slowing damage" .025
 		"hit force" -10
 		"piercing" 1
